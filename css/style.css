@@ -13,7 +13,7 @@ body {
         background-color: #FFFFFF;
 }
 
-ul, li {
+ul {
         list-style-type: none;
         margin: 0;
         padding-left: 0;
@@ -31,14 +31,29 @@ h1, h2, h3, p {
 img {
         display: block;
 }
-/* =======================================================================header */
 
 .container {
-        max-width: 1440px;
+        width: 1158px;
         padding-left: 156px;
         padding-right: 156px;
         margin-left: auto;
         margin-right: auto;
+        
+}
+/* =======================================================================header */
+
+.header {
+        border-bottom: 1px solid #e7e9fc;
+}
+
+.header-wrapper {
+        display: flex;
+        padding: 24px 0;
+}
+
+.header-nav {
+        display: flex;
+        align-items: center;
 }
 
 .header-nav-logo {
@@ -49,38 +64,58 @@ img {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        margin-right: 76px;
     }
+
 .header-nav-span {
-    color: #2e2f42;
+        color: #2e2f42;
+}
+
+.header-nav-list {
+        display: flex;
+        gap: 40px;
+        padding: 24px 0;
+        margin-right: 332px;
 }
 
 .header-nav-link {
         font-weight: 500;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        
 }
+
 .header-nav-link:hover,
 .header-nav-link:focus {
-    color: #404bbf;
+        color: #404bbf;
 }
+
 .header-address {
-    font-style: normal;
+         font-style: normal;
 }
+
+.header-address-list {
+        display: flex;
+        padding: 24px 0;
+        gap: 40px;
+}
+
 .header-address-link {
         letter-spacing: 0.02em;
         color: #434455;
+        justify-content: space-between;
 }
 
-        .header-address-link:hover,
-        .header-address-link:focus {
-                color: #404bbf;
-        }
+.header-address-link:hover,
+.header-address-link:focus {
+        color: #404bbf;
+}
 
 /* ===========================================================================Solutions */
 
-        .section-solution {
-                background-color: #2e2f42;
-        }
+.section-solution {
+         background-color: #2e2f42;
+}
         .solution-title {
                 font-weight: 700;
                 font-size: 56px;
