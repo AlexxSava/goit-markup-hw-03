@@ -16,7 +16,7 @@ body {
 ul {
         list-style-type: none;
         margin: 0;
-        padding-left: 0;
+        padding: 0;
     
 }
 
@@ -24,7 +24,7 @@ a {
         text-decoration: none;
 }
 
-h1, h2, h3, p {
+h1, h2, h3, h4, h5, h6, p {
         margin: 0;
 }
 
@@ -34,8 +34,8 @@ img {
 
 .container {
         width: 1158px;
-        padding-left: 156px;
-        padding-right: 156px;
+        padding-left: 15px;
+        padding-right: 15px;
         margin-left: auto;
         margin-right: auto;
         
@@ -48,7 +48,7 @@ img {
 
 .header-wrapper {
         display: flex;
-        padding: 24px 0;
+        align-items: center;
 }
 
 .header-nav {
@@ -64,8 +64,12 @@ img {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+}
+
+.logo {
         margin-right: 76px;
-    }
+        padding: 24px 0;
+}
 
 .header-nav-span {
         color: #2e2f42;
@@ -73,8 +77,8 @@ img {
 
 .header-nav-list {
         display: flex;
+        align-items: center;
         gap: 40px;
-        padding: 24px 0;
         margin-right: 332px;
 }
 
@@ -82,6 +86,8 @@ img {
         font-weight: 500;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        padding: 24px 0;
+        display: block;
         
 }
 
@@ -92,18 +98,20 @@ img {
 
 .header-address {
          font-style: normal;
+         margin-left: auto;
 }
 
 .header-address-list {
         display: flex;
-        padding: 24px 0;
-        gap: 40px;
+        align-items: center;
+        gap: 30px;
 }
 
 .header-address-link {
         letter-spacing: 0.02em;
         color: #434455;
-        justify-content: space-between;
+        display: block;
+        padding: 24px 0;
 }
 
 .header-address-link:hover,
@@ -113,9 +121,9 @@ img {
 
 /* ===========================================================================Solutions */
 
-.section-solution {
-         background-color: #2e2f42;
-}
+        .section-solution {
+                background-color: #2e2f42;
+        }
         .solution-title {
                 font-weight: 700;
                 font-size: 56px;
